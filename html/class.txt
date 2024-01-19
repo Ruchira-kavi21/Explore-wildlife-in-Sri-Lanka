@@ -1,0 +1,20 @@
+class A{
+    staic int x =10;
+    int x=10;
+
+    public static void main(String args[])
+    {
+        A a = new A();
+        System.out.println(a.x);
+        a.m();
+
+    }
+
+    public void m(){
+        System.out.println("Hi");
+    }     
+}
+
+
+x=10
+m(){}
